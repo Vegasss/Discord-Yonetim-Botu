@@ -1,0 +1,13 @@
+{
+  "version": "0.0.1",
+  "main": "sevgi.js",
+  "scripts": {
+    "test": "sevgi.js"
+  },
+  "dependencies": {
+
+  },
+  "engines": {
+    "node": "1.x"
+  }
+}
