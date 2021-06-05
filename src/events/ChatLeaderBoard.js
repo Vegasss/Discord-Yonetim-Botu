@@ -14,12 +14,12 @@ module.exports = async () => {
   StatDatabase.find({ SunucuID: cfg.Server.GuildID }, async (err, res) => {
   res = res.filter(x => client.guilds.cache.get(cfg.Server.GuildID).members.cache.get(x.userID));
   const msgList = res.filter(x => x && x.MessageNumber !== 0).sort((x, y) => y.MessageNumber - x.MessageNumber).map((val, i) =>`\`${i + 1}.\` ${client.guilds.cache.get(cfg.Server.GuildID).members.cache.get(val.userID)}: ${val.MessageNumber} mesaj`).splice(0, 30).join("\n");
-  let SevgiKalpVegas = new MessageEmbed()
-  SevgiKalpVegas.setColor("BLACK")
-  SevgiKalpVegas.setAuthor(`Yarrak Sıralaması | Tüm Zamanlar`, client.guilds.cache.get(cfg.Server.GuildID).iconURL({dynamic:true}))
-  SevgiKalpVegas.setFooter(`Güncellenme: ${moment(Date.parse(new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul" }))).locale("TR").format("LLL")}`)
-  SevgiKalpVegas.setDescription(`${msgList}` )
-  SEX.edit(SevgiKalpVegas)})}
+  let DozDuMbOTbOzUkaQ = new MessageEmbed()
+  DozDuMbOTbOzUkaQ.setColor("BLACK")
+  DozDuMbOTbOzUkaQ.setAuthor(`Yarrak Sıralaması | Tüm Zamanlar`, client.guilds.cache.get(cfg.Server.GuildID).iconURL({dynamic:true}))
+  DozDuMbOTbOzUkaQ.setFooter(`Güncellenme: ${moment(Date.parse(new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul" }))).locale("TR").format("LLL")}`)
+  DozDuMbOTbOzUkaQ.setDescription(`${msgList}` )
+  SEX.edit(DozDuMbOTbOzUkaQ)})}
 
 }
 
