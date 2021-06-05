@@ -5,7 +5,7 @@ const StatDatabase = require("../schemas/Stat");
 module.exports = async () => {
   
   setInterval(() => {
-  sevgi()//sevgi//sevgi
+  sex()
   }, 3600000);
   function VoiceReward() {  
   client.guilds.cache.get(cfg.Server.GuildID).channels.cache.filter(e => e.type == "voice" && e.members.size > 0).forEach(channel => {
