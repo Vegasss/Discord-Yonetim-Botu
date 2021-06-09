@@ -1,1 +1,1 @@
-# arkadaşlar selam ben vegas naber sikimmi sizi neyse bu arada dogum gunum kutlamayanların ölüsünü dirisini sikeyim neyse arkadaslar konuya gireyim discord serverları icin gelişmiş yönetim botu kullanabilirseniz kullanın GGGQRPÖPFWÖGERQÖMWEĞFWERG
+# arkadaşlar selam ben vegas konuya gireyim discord serverları icin gelişmiş yönetim botu kullanabilirseniz kullanın GGGQRPÖPFWÖGERQÖMWEĞFWERG
